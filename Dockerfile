@@ -1,5 +1,5 @@
 FROM python:latest
 WORKDIR /app
 COPY . /app
-CMD ["/App/tp.py"]
+CMD ["/app/tp.py"]
 ENTRYPOINT ["python3"]
